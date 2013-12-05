@@ -22,5 +22,5 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
 
-  # config.vm.provision "shell", inline: "wget https://download.serverpilot.io/serverpilot-installer.py"
+  config.vm.provision "shell", inline: "apt-get update && apt-get install -y curl"
 end
