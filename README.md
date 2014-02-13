@@ -4,6 +4,9 @@ This repo provides a sample Vagrantfile to create a 64-bit Ubuntu 12.04 virtual 
 
 http://www.youtube.com/watch?v=n1qdvBY5WM8
 
+https://serverpilot.io
+
+
 Getting Started
 ---------------
 1. Install dependencies
